@@ -1,5 +1,8 @@
 # Parametric PINN Surrogate: Real-World 1D Structural Mechanics
 
+## 🧠 Engineering Insight
+This project demonstrates how physics-informed neural networks (PINNs) can replace traditional finite element solvers for fast, real-time prediction of structural response across varying geometries and loading conditions.
+
 Traditional Finite Element Analysis (FEA) requires meshing and iterative solving for every new geometry or load case. This project demonstrates a **Mesh-Free Parametric Physics-Informed Neural Network (PINN)** that acts as an instant surrogate model for solid mechanics. 
 
 Instead of solving a differential equation for a single specific bar, this neural network learns the generalized physics of a tapered rod. Once trained, it can instantly predict the displacement field and internal forces for **any combination** of length, taper geometry, material stiffness, and applied load within its training domain—executing in milliseconds.
